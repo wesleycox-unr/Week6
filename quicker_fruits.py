@@ -1,7 +1,7 @@
 #quicker fruits
 data_dict = {}
 
-with open("fruits.txt") as infile:
+with open("pub_with_no_beer.txt") as infile:
 
     line = infile.readline() # reads everything into a list at once
     
@@ -12,13 +12,17 @@ with open("fruits.txt") as infile:
         if line in data_dict:
             data_dict[line] += 1
         else:
+            # Initialize this entry
             data_dict[line] = 1
 
         
         line = infile.readline()
         
-print(data_dict)
-        
+#print(data_dict)
+ 
+lonesome_count = data_dict["lonesome\n"]
+ 
+print("Lonesome is here {} times".format(lonesome_count)) 
    
 #print(data)
 
