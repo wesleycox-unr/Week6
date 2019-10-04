@@ -1,0 +1,13 @@
+{
+    "people": [
+        {
+            "Name": "Jane Smith",
+            "Age": 23,
+            "Address": "123 Fake St"
+        },
+        {
+            "Name": "Slim Dusty",
+            "Age": 44
+        }
+    ]
+}
